@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Agregar estilos globales en la capa base */
+@layer base {
+  body {
+    @apply bg-blue-500; /* Aquí puedes cambiar el color a tu preferencia */
+  }
+}
