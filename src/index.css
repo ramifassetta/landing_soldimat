@@ -5,7 +5,7 @@
 /* Agregar estilos globales en la capa base */
 @layer base {
   #root {
-    @apply m-0 p-0; /* Elimina margen y padding */
+    @apply m-0 p-0 w-full max-w-full; /* Elimina margen y padding */
   }
   body {
     @apply h-screen overflow-x-hidden m-0 p-0; /* Asegura que el body tenga una altura completa y no se desborde */
