@@ -11,8 +11,8 @@ export const Landing = () => {
     <div className=" ml-0 p-0">
       <Header/>
       <Hero/>
-      <Galeria />
       <Nosotros/>
+      <Galeria />
       <Productos />
       <Contacto />
     </div>

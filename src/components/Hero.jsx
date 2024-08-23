@@ -1,4 +1,3 @@
-import React from 'react';
 import post_soldi from '../assets/videos/post_soldi.mp4';
 import soldimat_campo from '../assets/videos/soldimat_campo.mp4';
 
