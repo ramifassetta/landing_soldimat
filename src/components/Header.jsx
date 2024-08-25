@@ -14,7 +14,7 @@ export const Header = () => {
                 href="#hero"
                 className="font-semibold relative overflow-hidden h-full flex items-center justify-center p-3 transition duration-300 ease-in-out hover:text-white group"
               >
-                <span className="relative z-10">Inicio</span>
+                <span className="relative z-10">INICIO</span>
                 <span className="absolute inset-0 bg-red-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
               </a>
             </li>
@@ -23,7 +23,7 @@ export const Header = () => {
                 href="#nosotros"
                 className="font-semibold relative overflow-hidden h-full flex items-center justify-center p-3 transition duration-300 ease-in-out hover:text-white group"
               >
-                <span className="relative z-10">Nosotros</span>
+                <span className="relative z-10">NOSOTROS</span>
                 <span className="absolute inset-0 bg-red-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
               </a>
             </li>
@@ -32,7 +32,7 @@ export const Header = () => {
                 href="#galeria"
                 className="font-semibold relative overflow-hidden h-full flex items-center justify-center p-3 transition duration-300 ease-in-out hover:text-white group"
               >
-                <span className="relative z-10">Galería</span>
+                <span className="relative z-10">GALERÍA</span>
                 <span className="absolute inset-0 bg-red-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
               </a>
             </li>
@@ -41,7 +41,7 @@ export const Header = () => {
                 href="#productos"
                 className="font-semibold relative overflow-hidden h-full flex items-center justify-center p-3 transition duration-300 ease-in-out hover:text-white group"
               >
-                <span className="relative z-10">Productos</span>
+                <span className="relative z-10">PRODUCTOS</span>
                 <span className="absolute inset-0 bg-red-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
               </a>
             </li>
@@ -50,7 +50,7 @@ export const Header = () => {
                 href="#contacto"
                 className="font-semibold relative overflow-hidden h-full flex items-center justify-center p-3 transition duration-300 ease-in-out hover:text-white group"
               >
-                <span className="relative z-10">Contacto</span>
+                <span className="relative z-10">CONTACTO</span>
                 <span className="absolute inset-0 bg-red-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
               </a>
             </li>

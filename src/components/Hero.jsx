@@ -3,7 +3,7 @@ import soldimat_campo from '../assets/videos/soldimat_campo.mp4';
 
 export const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center text-center  overflow-hidden">
+    <section className="relative h-screen flex flex-col overflow-hidden">
       {/* Contenedor de los videos */}
       <div className="absolute inset-0 flex">
         {/* Video de fondo 1 */}
@@ -31,14 +31,19 @@ export const Hero = () => {
 
       <div className="absolute inset-0 bg-black opacity-25"></div>
 
-      <div className="relative z-10 flex flex-col justify-center items-center h-full p-6">
-        {/* Contenedor para alinear el texto y el botón */}
-        <div className="flex flex-col items-start mt-auto mb-16">
-          {/* <h1 className="text-4xl md:text-6xl font-bold mb-4">Bienvenido a Nuestro Sitio</h1> */}
-          <p className="text-lg md:text-2xl mb-6 font-semibold text-white">Descubre nuestras increíbles ofertas y servicios diseñados especialmente para ti.</p>
+      <div className="relative z-10 flex flex-col justify-between h-full p-6">
+        {/* Contenedor para alinear el texto en la parte superior */}
+        <div className="text-center max-w-4xl mx-auto pt-12">
+          <p className="text-lg md:text-2xl mb-6 font-semibold text-white">
+            LA LÍNEA ENTRE SEGURIDAD Y PELIGRO ES DELGADA.
+          </p>
         </div>
+        
         {/* Botón pegado al borde inferior */}
-        <a href="#contacto" className=" border-4 border-red-600 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-sm transition duration-300 ease-in-out absolute bottom-6">
+        <a
+          href="#contacto"
+          className="border-4 border-red-600 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-sm transition duration-300 ease-in-out w-fit mx-auto"
+        >
           CONTÁCTANOS
         </a>
       </div>
