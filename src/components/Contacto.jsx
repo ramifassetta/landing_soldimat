@@ -2,7 +2,7 @@ import soldimatrojo from "../assets/images/soldimatrojo-logo.png";
 
 export const Contacto = () => {
   return (
-    <section className="bg-black  w-full flex justify-between">
+    <section className="bg-black  w-full flex justify-between" id="contacto">
       <div className="ml-10 flex justify-center items-center">
         <img src={soldimatrojo} alt="" className="my-auto" />
         <p className="text-white font-bold text-2xl flex flex-col items-start ml-2 mt-8">

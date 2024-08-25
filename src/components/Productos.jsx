@@ -8,7 +8,7 @@ import soldimatrojo from "../assets/images/soldimatrojo-logo.png";
 
 export const Productos = () => {
   return (
-    <section className="py-12 w-full flex">
+    <section className="py-12 w-full flex" id="productos">
       {/* Contenedor principal para las dos columnas */}
       <div className="flex w-full">
         {/* Columna más pequeña para las imágenes */}

@@ -2,7 +2,7 @@ import nosotros from "../assets/images/nosotros.png";
 
 export const Nosotros = () => {
   return (
-    <section className="py-16 px-4 bg-black text-center ">
+    <section className="py-16 px-4 bg-black text-center " id="nosotros">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-white w-fit text-center m-auto border-t-4 border-b-4 border-red-700 py-2">
           SOBRE NOSOTROS

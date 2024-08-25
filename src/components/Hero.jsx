@@ -3,7 +3,7 @@ import soldimat_campo from '../assets/videos/soldimat_campo.mp4';
 
 export const Hero = () => {
   return (
-    <section className="relative h-screen flex flex-col overflow-hidden">
+    <section className="relative h-screen flex flex-col overflow-hidden" id='hero'>
       {/* Contenedor de los videos */}
       <div className="absolute inset-0 flex">
         {/* Video de fondo 1 */}

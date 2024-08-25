@@ -12,7 +12,7 @@ export const Galeria = () => {
   ];
 
   return (
-    <section className="py-6 px-4 bg-black">
+    <section className="py-6 px-4 bg-black" id="galeria">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {images.map((src, index) => (
