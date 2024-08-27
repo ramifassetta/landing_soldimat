@@ -66,7 +66,7 @@ export const Contacto = () => {
         </div>
       </div>
 
-      <div className="relative p-6 rounded-md shadow-md bg-red-600">
+      <div className="relative p-6 rounded-md shadow-md ">
         <div className="absolute inset-0 bg-red-600 opacity-50"></div>
         <div className="relative z-10 text-start">
           <h3 className="font-bold text-white mb-4 text-lg lg:text-xl">

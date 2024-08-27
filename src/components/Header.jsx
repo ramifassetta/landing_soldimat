@@ -19,12 +19,12 @@ export const Header = () => {
 
         {/* Navigation Links for Desktop */}
         <nav className="hidden lg:flex lg:items-center lg:mr-10">
-          <ul className="flex space-x-4 items-center">
+          <ul className="flex  space-x-4 items-center ">
             {headerLinks.map((link) => (
               <li key={link.id}>
                 <a
                   href={link.id}
-                  className="font-semibold relative overflow-hidden flex items-center justify-center p-3 transition duration-300 ease-in-out hover:text-white group"
+                  className="font-semibold relative overflow-hidden flex items-center justify-center px-3 py-6 transition duration-300 ease-in-out hover:text-white group"
                 >
                   <span className="relative z-10">{link.title}</span>
                   <span className="absolute inset-0 bg-red-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
@@ -36,7 +36,7 @@ export const Header = () => {
 
         {/* Menu Icon for Mobile */}
         <div className="flex lg:hidden">
-          <button onClick={toggleMenu} className="focus:outline-none">
+          <button onClick={toggleMenu} className="focus:outline-none ">
             <svg
               className="w-8 h-8 text-red-600"
               fill="none"
@@ -63,7 +63,7 @@ export const Header = () => {
               <li key={link.id}>
                 <a
                   href={link.id}
-                  className="font-semibold block w-full text-center py-2 transition duration-300 ease-in-out hover:bg-red-600 hover:text-white"
+                  className="font-semibold block w-full text-center p-2 transition duration-300 ease-in-out hover:bg-red-600 hover:text-white"
                 >
                   {link.title}
                 </a>

@@ -2,13 +2,13 @@ export const WppButton = () => {
     return (
       <div className="fixed bottom-4 right-4 z-50 transition-transform duration-300 ease-in-out hover:scale-110">
         <a
-          href="https://wa.me/1234567890" // Reemplaza este enlace con el número de WhatsApp de tu empresa
+          href="https://wa.me/1234567890"
           target="_blank"
           rel="noopener noreferrer"
         >
           <svg
             viewBox="0 0 256 259"
-            width="64" // Puedes ajustar el tamaño si es necesario
+            width="64"
             height="64"
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="xMidYMid"
