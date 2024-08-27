@@ -5,10 +5,11 @@
 /* Agregar estilos globales en la capa base */
 @layer base {
   #root {
-    @apply m-0 p-0 w-full max-w-full; /* Elimina margen y padding */
+    @apply m-0 p-0 w-full min-w-full; /* Asegura que el root tenga todo el ancho */
   }
   body {
-    @apply h-screen overflow-x-hidden m-0 p-0; /* Asegura que el body tenga una altura completa y no se desborde */
-    /* background: rgba(128, 128, 128)  Gris medio con opacidad */
+    @apply m-0 p-0 min-h-screen w-full overflow-x-hidden; /* Asegura que el body tenga todo el ancho y altura mínima completa */
   }
 }
+
+

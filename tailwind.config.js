@@ -11,6 +11,13 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.scroll-smooth': {
+          'scroll-behavior': 'smooth',
+        },
+      });
+    },
+  ],
 }
-
