@@ -50,10 +50,10 @@ export const Productos = () => {
             </p>
             {/* Segundo párrafo oculto en dispositivos móviles */}
             <p className="hidden md:block text-white text-base sm:text-lg md:text-2xl mt-10 text-start">
-              ¡No esperes más para asegurar tu entorno! Contacta con nosotros
+              ¡No esperes más para asegurar tu entorno! Contactanos
               hoy mismo para obtener más información sobre nuestros servicios y
               cómo podemos ayudarte a mantener la seguridad de tus
-              instalaciones. Estamos aquí para brindarte el mejor servicio y
+              instalaciones. Estamos para brindarte el mejor servicio y
               apoyo en todo momento.
             </p>
           </div>
