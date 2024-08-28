@@ -12,12 +12,10 @@ export const Header = () => {
   return (
     <header className="bg-white px-4 py-2 w-full top-0 z-10 border-b-2 border-b-gray-200">
       <div className="w-full flex justify-between items-center">
-        {/* Logo */}
         <div className="ml-10">
           <img src={soldimatrojo} alt="Logo" className="h-24" />
         </div>
 
-        {/* Navigation Links for Desktop */}
         <nav className="hidden lg:flex lg:items-center lg:mr-10">
           <ul className="flex  space-x-4 items-center ">
             {headerLinks.map((link) => (
@@ -34,7 +32,6 @@ export const Header = () => {
           </ul>
         </nav>
 
-        {/* Menu Icon for Mobile */}
         <div className="flex lg:hidden">
           <button onClick={toggleMenu} className="focus:outline-none ">
             <svg
@@ -55,7 +52,6 @@ export const Header = () => {
         </div>
       </div>
 
-      {/* Dropdown Menu for Mobile */}
       {isMenuOpen && (
         <div className="lg:hidden w-full bg-white border-t-2 border-gray-200">
           <ul className="flex flex-col items-center p-4 space-y-2">

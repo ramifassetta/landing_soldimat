@@ -15,7 +15,6 @@ export const Nosotros = () => {
           adaptados a las necesidades específicas de nuestros clientes.
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-          {/* Puedes añadir imágenes o contenido adicional aquí */}
           <div className="flex-1">
             <img
               src={nosotros}
