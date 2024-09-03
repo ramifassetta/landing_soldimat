@@ -1,79 +1,37 @@
-import { primerasTresImagenes, otrasTresImagenes } from '../constants';
-import soldimatrojo from "../assets/images/soldimatrojo-logo.png";
+
+
+// Aquí puedes reemplazar las URLs con las de tus imágenes de productos
+const productos = [
+  "https://via.placeholder.com/300?text=Producto+1",
+  "https://via.placeholder.com/300?text=Producto+2",
+  "https://via.placeholder.com/300?text=Producto+3",
+  "https://via.placeholder.com/300?text=Producto+4",
+  "https://via.placeholder.com/300?text=Producto+5",
+  "https://via.placeholder.com/300?text=Producto+6",
+  "https://via.placeholder.com/300?text=Producto+7",
+  "https://via.placeholder.com/300?text=Producto+8",
+  "https://via.placeholder.com/300?text=Producto+9",
+  "https://via.placeholder.com/300?text=Producto+10",
+];
 
 export const Productos = () => {
   return (
-    <section className="py-12 w-full flex flex-col md:flex-row" id="productos">
-      <div className="flex flex-col md:flex-row w-full">
-        <div className="hidden md:flex flex-col items-start sm:w-full md:w-1/3 lg:w-1/3">
-          <div className="bg-red-700 mb-12 p-2 m-auto ">
-            <div className="bg-black w-fit sm:w-full m-auto p-6">
-              <div className="flex flex-col gap-3">
-                {primerasTresImagenes.map((producto, index) => (
-                  <div key={index} className="relative group w-64 h-auto">
-                    <img
-                      src={producto.src}
-                      alt={producto.alt}
-                      className="w-full h-auto object-cover rounded-sm shadow-md"
-                    />
-                    <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-sm flex justify-center items-center">
-                      <img
-                        src={soldimatrojo}
-                        alt="Logo de la marca"
-                        className="w-16 h-auto"
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
+    <section className="bg-black py-12">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-8 text-white">NUESTROS PRODUCTOS</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-1">
+          {productos.map((producto, index) => (
+            <div key={index} className="bg-white p-4 rounded-sm shadow-md transform transition duration-300 hover:scale-105">
+              <img
+                src={producto}
+                alt={`Producto ${index + 1}`}
+                className="w-full h-48 object-cover rounded-md mb-4"
+              />
+              <h3 className="text-xl font-semibold text-center">Producto {index + 1}</h3>
             </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col sm:flex-row justify-center items-center bg-black p-6 w-full sm:w-2/3 md:w-2/3 lg:w-2/3">
-          <div className="w-full sm:w-1/2 lg:mr-10 md:w-full md:ml-5">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-white">
-              NUESTROS <span className="text-red-700">SERVICIOS</span>
-            </h2>
-            <p className="mb-4 text-white text-base sm:text-lg md:text-2xl text-start">
-              Nos especializamos en extintores a medida, adaptados a las
-              necesidades específicas de cada cliente. Nuestro equipo de
-              expertos se encarga de realizar la instalación profesional y
-              asegurar el mantenimiento continuo para que tus extintores siempre
-              estén en óptimas condiciones.
-            </p>
-            {/* Segundo párrafo oculto en dispositivos móviles */}
-            <p className="hidden md:block text-white text-base sm:text-lg md:text-2xl mt-10 text-start">
-              ¡No esperes más para asegurar tu entorno! Contactanos
-              hoy mismo para obtener más información sobre nuestros servicios y
-              cómo podemos ayudarte a mantener la seguridad de tus
-              instalaciones. Estamos para brindarte el mejor servicio y
-              apoyo en todo momento.
-            </p>
-          </div>
-          <div className="flex flex-col gap-3 sm:hidden mt-3 md:mt-0 md:w-1/2 lg:flex items-end lg:w-fit">
-            {otrasTresImagenes.map((producto, index) => (
-              <div key={index} className="relative group w-64 h-auto">
-                <img
-                  src={producto.src}
-                  alt={producto.alt}
-                  className="w-full h-auto object-cover rounded-sm shadow-md"
-                />
-                <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-sm flex justify-center items-center">
-                  {/* Logo que aparece en hover */}
-                  <img
-                    src={soldimatrojo}
-                    alt="Logo de la marca"
-                    className="w-16 h-auto"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
     </section>
   );
 };
-
-

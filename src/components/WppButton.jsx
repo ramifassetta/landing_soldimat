@@ -2,7 +2,7 @@ export const WppButton = () => {
     return (
       <div className="fixed bottom-4 right-4 z-50 transition-transform duration-300 ease-in-out hover:scale-110">
         <a
-          href="https://wa.me/1234567890"
+          href="https://wa.me/3535638461"
           target="_blank"
           rel="noopener noreferrer"
         >

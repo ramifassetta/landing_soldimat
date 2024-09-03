@@ -1,9 +1,9 @@
-import producto1 from '../assets/images/producto1.png';
-import producto2 from '../assets/images/producto2.png';
-import producto3 from '../assets/images/producto3.png';
-import producto4 from '../assets/images/producto4.png';
-import producto5 from '../assets/images/producto5.png';
-import producto6 from '../assets/images/producto6.png';
+import servicio1 from '../assets/images/servicio1.png';
+import servicio2 from '../assets/images/servicio2.png';
+import servicio3 from '../assets/images/servicio3.png';
+import servicio4 from '../assets/images/servicio4.png';
+import servicio5 from '../assets/images/servicio5.png';
+import servicio6 from '../assets/images/servicio6.png';
 import dudas from "../assets/images/dudas.png";
 import instalacion from "../assets/images/instalacion.png";
 import mantenimientoYrecarga from "../assets/images/mantenimientoYrecarga.png";
@@ -23,8 +23,12 @@ export const headerLinks = [
         title: "GALERÍA",
     },
     {
-        id: "#productos",
+        id: "#producto",
         title: "PRODUCTOS",
+    },
+    {
+        id: "#servicios",
+        title: "SERVICIOS",
     },
     {
         id: "#contacto",
@@ -34,30 +38,30 @@ export const headerLinks = [
 
 export const primerasTresImagenes = [
     {
-        src: producto1,
+        src: servicio1,
         alt: 'Producto 1'
     },
     {
-        src: producto2,
+        src: servicio2,
         alt: 'Producto 2'
     },
     {
-        src: producto3,
+        src: servicio3,
         alt: 'Producto 3'
     }
 ];
 
 export const otrasTresImagenes = [
     {
-        src: producto4,
+        src: servicio4,
         alt: 'Producto 4'
     },
     {
-        src: producto5,
+        src: servicio5,
         alt: 'Producto 5'
     },
     {
-        src: producto6,
+        src: servicio6,
         alt: 'Producto 6'
     }
 ];

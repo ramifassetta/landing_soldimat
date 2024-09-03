@@ -2,10 +2,11 @@ import {Contacto} from "../components/Contacto";
 import {Galeria} from "../components/Galeria";
 import {Header} from "../components/Header";
 import {Hero} from "../components/Hero";
+import { Mapa } from "../components/Mapa";
 import {Nosotros} from "../components/Nosotros";
-import {Productos} from "../components/Productos";
+import { Productos } from "../components/Productos";
+import {Servicios} from "../components/Servicios";
 import { WppButton } from "../components/WppButton";
-
 
 
 export const Landing = () => {
@@ -15,7 +16,9 @@ export const Landing = () => {
       <Hero/>
       <Nosotros/>
       <Galeria />
-      <Productos />
+      <Productos/>
+      <Servicios />
+      <Mapa />
       <Contacto />
       <WppButton />
     </div>
