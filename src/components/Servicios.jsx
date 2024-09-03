@@ -1,4 +1,4 @@
-import { primerasTresImagenes, otrasTresImagenes } from '../constants';
+import { primerasTresImagenes, otrasTresImagenes } from "../constants";
 import soldimatrojo from "../assets/images/soldimatrojo-logo.png";
 
 export const Servicios = () => {
@@ -36,19 +36,19 @@ export const Servicios = () => {
               NUESTROS <span className="text-red-700">SERVICIOS</span>
             </h2>
             <p className="mb-4 text-white text-base sm:text-lg md:text-2xl text-start">
-              Nos especializamos en extintores a medida, adaptados a las
-              necesidades específicas de cada cliente. Nuestro equipo de
-              expertos se encarga de realizar la instalación profesional y
-              asegurar el mantenimiento continuo para que tus extintores siempre
-              estén en óptimas condiciones.
+              Como una empresa dedicada a la seguridad contra incendios,
+              ofrecemos una amplia gama de matafuegos diseñados para proteger
+              tus espacios. Nuestros productos cumplen con los más altos
+              estándares de calidad, garantizando seguridad y confianza en todo
+              momento.
             </p>
             {/* Segundo párrafo oculto en dispositivos móviles */}
             <p className="hidden md:block text-white text-base sm:text-lg md:text-2xl mt-10 text-start">
-              ¡No esperes más para asegurar tu entorno! Contactanos
-              hoy mismo para obtener más información sobre nuestros servicios y
-              cómo podemos ayudarte a mantener la seguridad de tus
-              instalaciones. Estamos para brindarte el mejor servicio y
-              apoyo en todo momento.
+              Además de la venta de matafuegos, brindamos servicios de
+              instalación profesional y mantenimiento periódico. Nuestro equipo
+              se asegura de que todos los equipos estén siempre listos para
+              actuar en caso de emergencia. Confía en nosotros para mantener la
+              seguridad de tu empresa o hogar en todo momento.
             </p>
           </div>
           <div className="flex flex-col gap-3 sm:hidden mt-3 md:mt-0 md:w-1/2 lg:flex items-end lg:w-fit">
@@ -75,5 +75,3 @@ export const Servicios = () => {
     </section>
   );
 };
-
-

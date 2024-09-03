@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Agregar estilos globales en la capa base */
+
 @layer base {
   #root {
-    @apply m-0 p-0 w-full min-w-full; /* Asegura que el root tenga todo el ancho */
+    @apply m-0 p-0 w-full min-w-full; 
   }
   body {
-    @apply m-0 p-0 min-h-screen w-full overflow-x-hidden; /* Asegura que el body tenga todo el ancho y altura mínima completa */
+    @apply m-0 p-0 min-h-screen w-full overflow-x-hidden; 
   }
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: black; 
+}
 
+.swiper-pagination-bullet {
+  background-color: black; 
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black; 
+}
