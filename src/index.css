@@ -2,25 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   #root {
-    @apply m-0 p-0 w-full min-w-full; 
+    @apply m-0 p-0 w-full min-w-full;
   }
   body {
-    @apply m-0 p-0 min-h-screen w-full overflow-x-hidden; 
+    @apply m-0 p-0 min-h-screen w-full overflow-x-hidden;
   }
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: black; 
+  color: black;
 }
 
 .swiper-pagination-bullet {
-  background-color: black; 
+  background-color: white;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: black; 
+  background-color: white;
 }

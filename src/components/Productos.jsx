@@ -3,7 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
+import { Slider } from "./Slider";
 
 export const Productos = () => {
   return (
@@ -15,9 +16,8 @@ export const Productos = () => {
 
         <div className="block lg:hidden">
           <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation]}
             navigation
-            pagination={{ clickable: true }}
             spaceBetween={10}
             slidesPerView={1}
           >
@@ -55,6 +55,7 @@ export const Productos = () => {
             </div>
           ))}
         </div>
+      <Slider />
       </div>
     </section>
   );

@@ -42,7 +42,6 @@ export const Servicios = () => {
               estándares de calidad, garantizando seguridad y confianza en todo
               momento.
             </p>
-            {/* Segundo párrafo oculto en dispositivos móviles */}
             <p className="hidden md:block text-white text-base sm:text-lg md:text-2xl mt-10 text-start">
               Además de la venta de matafuegos, brindamos servicios de
               instalación profesional y mantenimiento periódico. Nuestro equipo
@@ -60,7 +59,6 @@ export const Servicios = () => {
                   className="w-full h-auto object-cover rounded-sm shadow-md"
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-sm flex justify-center items-center">
-                  {/* Logo que aparece en hover */}
                   <img
                     src={soldimatrojo}
                     alt="Logo de la marca"

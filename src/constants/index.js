@@ -81,6 +81,10 @@ export const galery = [
 
 export const productos = [
     {
+        src: producto4,
+        alt: "EXTINTOR DE POLVO"
+    },
+    {
         src: producto1,
         alt: "EXTINTOR DE AGUA"
     },
@@ -91,10 +95,6 @@ export const productos = [
     {
         src: producto3,
         alt: "EXTINTOR DE AGUA PULVERIZADA"
-    },
-    {
-        src: producto4,
-        alt: "EXTINTOR DE POLVO"
     },
     {
         src: producto5,
@@ -120,4 +120,42 @@ export const productos = [
         src: producto10,
         alt: "SEÑALIZACION"
     },
-]
+];
+
+export const clientes = [
+    {
+        title: "sector agro",
+        images: [
+            { src: "/slider/afa_agricultores.png", alt: "afa agricultores" },
+            { src: "/slider/COTARGO-n.png", alt: "cotagro" },
+            { src: "/slider/syngenta.png", alt: "syngenta" },
+            { src: "/slider/ypf_agro.jpg", alt: "ypf agro" }
+        ]
+    },
+    {
+        title: "combustibles",
+        images: [
+            { src: "/slider/Logo_de_YPF.svg.png", alt: "YPF" },
+            { src: "/slider/Logo-Shell.png", alt: "Shell" },
+        ]
+    },
+    {
+        title: "industrias",
+        images: [
+            { src: "/slider/gaviglio.png", alt: "Gaviglio" },
+            { src: "/slider/chediack.jpg", alt: "Chediack" },
+            { src: "/slider/rovial_sa.png", alt: "Rovial" },
+            { src: "/slider/acacoop_logo.png", alt: "ACA" }
+        ]
+    },
+    {
+        title: "alimentos / lácteos",
+        images: [
+            { src: "/slider/rolac_quesos.jpg", alt: "Rolac" },
+            { src: "/slider/lacolonia_lacteos.jpg", alt: "La Colonia" },
+            { src: "/slider/super_delfin.webp", alt: "Super Delfin" },
+            { src: "/slider/Supermercado_Giro.jpg", alt: "Super Giro" },
+        ]
+    }
+];
+
