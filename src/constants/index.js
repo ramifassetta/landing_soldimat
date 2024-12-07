@@ -139,6 +139,10 @@ export const clientes = [
             { src: "/slider/Logo-Shell.png", alt: "Shell" },
         ]
     },
+    
+];
+
+export const clientes2 = [
     {
         title: "industrias",
         images: [
@@ -157,5 +161,4 @@ export const clientes = [
             { src: "/slider/Supermercado_Giro.jpg", alt: "Super Giro" },
         ]
     }
-];
-
+]

@@ -5,6 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation } from "swiper/modules";
 import { Slider } from "./Slider";
+import { Slider2 } from "./Slider2";
 
 export const Productos = () => {
   return (
@@ -56,6 +57,7 @@ export const Productos = () => {
           ))}
         </div>
       <Slider />
+      <Slider2/>
       </div>
     </section>
   );
